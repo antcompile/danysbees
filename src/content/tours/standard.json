@@ -16,7 +16,7 @@
     "fr": "25$ par personne"
   },
   "price_usd": 25,
-  "duration": "2 to 3 hours",
+  "duration": "90 minutes",
   "max_group": 20,
   "availability": {
     "en": "March to October",
@@ -30,8 +30,7 @@
       "Open live hives and observe the bees at work",
       "Taste multiple fresh honey varieties on site",
       "Learn the art of traditional Lebanese beekeeping",
-      "Photo opportunities in the apiary",
-      "A jar of honey to take home"
+      "Photo opportunities in the apiary"
     ],
     "ar": [
       "زيارة المنحل مع مرشد نحّال من العائلة",
@@ -39,8 +38,7 @@
       "فتح خلايا حية ومراقبة النحل أثناء العمل",
       "تذوق عدة أنواع من العسل الطازج في الموقع",
       "تعلم فن تربية النحل اللبنانية التقليدية",
-      "فرص التصوير في المنحل",
-      "جرة عسل لأخذها معك إلى المنزل"
+      "فرص التصوير في المنحل"
     ],
     "fr": [
       "Visite du rucher avec un guide apiculteur de la famille",
@@ -48,8 +46,7 @@
       "Ouverture de ruches vivantes et observation des abeilles au travail",
       "Dégustation de plusieurs variétés de miel frais sur place",
       "Apprentissage de l'art de l'apiculture libanaise traditionnelle",
-      "Opportunités photos dans le rucher",
-      "Un pot de miel à emporter"
+      "Opportunités photos dans le rucher"
     ]
   },
   "description": {

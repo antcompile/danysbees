@@ -102,6 +102,11 @@ const jsonLd = {
               {d.badge === 'most-popular' ? (lang === 'ar' ? 'الأكثر شعبية' : lang === 'fr' ? 'Le Plus Populaire' : 'Most Popular') : d.badge === 'raw-comb' ? (lang === 'ar' ? 'شمع خام' : lang === 'fr' ? 'Rayon Brut' : 'Raw Comb') : d.badge}
             </span>
           )}
+          {!d.in_stock && (
+            <span class="bg-dark/80 text-white px-4 py-1 rounded-full text-xs font-medium tracking-widest uppercase">
+              {t('products.out_of_stock')}
+            </span>
+          )}
           <h1 class="text-4xl md:text-6xl font-serif font-bold text-primary leading-tight">{name}</h1>
           <p class="text-3xl font-serif text-on-surface-variant">
             <span dir="ltr">${d.price_usd}</span>
@@ -136,11 +141,19 @@ const jsonLd = {
         )}
 
         <div class="space-y-4 pt-4">
-          <WhatsAppButton productName={name} lang={lang} size="lg" fullWidth />
-          <p class="text-center text-sm text-on-surface-variant">
-            {t('common.or_call')}
-            <a href={`tel:${siteConfig.phoneRaw}`} class="text-primary font-medium hover:underline ms-1" dir="ltr">{siteConfig.phone}</a>
-          </p>
+          {d.in_stock ? (
+            <>
+              <WhatsAppButton productName={name} lang={lang} size="lg" fullWidth />
+              <p class="text-center text-sm text-on-surface-variant">
+                {t('common.or_call')}
+                <a href={`tel:${siteConfig.phoneRaw}`} class="text-primary font-medium hover:underline ms-1" dir="ltr">{siteConfig.phone}</a>
+              </p>
+            </>
+          ) : (
+            <p class="text-center text-lg font-medium text-muted py-3 border border-outline-variant/20 rounded-xl">
+              {t('products.out_of_stock')}
+            </p>
+          )}
         </div>
       </div>
     </section>

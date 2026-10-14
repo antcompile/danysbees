@@ -5,8 +5,8 @@
     "ar": "عسل الحمضيات",
     "fr": "Miel d'Agrumes"
   },
-  "price_usd": 22,
-  "weight_kg": 1,
+  "price_usd": 50,
+  "weight_kg": 0.9,
   "description": {
     "en": "A delicate, light honey collected in early spring when the coastal citrus orchards of Northern Lebanon burst into bloom. The bees forage among orange, lemon, and mandarin blossoms, producing a pale golden honey with a bright, zesty character and a clean finish. Perfect drizzled over yogurt or stirred into herbal tea.",
     "ar": "عسل رقيق وخفيف يُجمع في أوائل الربيع عندما تتفتح بساتين الحمضيات الساحلية في شمال لبنان. يتغذى النحل بين أزهار البرتقال والليمون واليوسفي، وينتج عسلاً ذهبياً فاتحاً بنكهة منعشة ومشرقة. مثالي فوق اللبن أو في الشاي العشبي.",
@@ -23,7 +23,7 @@
     "fr": "Fleurs d'oranger, citronnier et mandarinier, vergers côtiers"
   },
   "season": "spring",
-  "in_stock": true,
+  "in_stock": false,
   "includes_spoon": true,
   "image": "/images/products/citrus.jpg",
   "badge": null

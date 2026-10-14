@@ -19,7 +19,6 @@ const t = useTranslation(lang);
 const currentPath = `/${lang}/tours/`;
 const tours = await getCollection('tours');
 const standardTour = tours.find((t) => t.data.id === 'standard');
-const premiumTour = tours.find((t) => t.data.id === 'premium');
 
 const steps = [
   { key: 'step1', icon: '1' },
@@ -64,9 +63,8 @@ const faqs = ['wear', 'children', 'rain', 'distance', 'buy', 'directions', 'came
           <h2 class="text-4xl font-serif font-bold text-dark mb-4">{t('tours.heading')}</h2>
           <div class="w-24 h-1 bg-primary-container mx-auto"></div>
         </div>
-        <div class="grid md:grid-cols-2 gap-8">
-          {standardTour && <TourCard tour={standardTour} lang={lang} />}
-          {premiumTour && <TourCard tour={premiumTour} lang={lang} featured />}
+        <div class="grid md:grid-cols-1 gap-8 max-w-2xl mx-auto">
+          {standardTour && <TourCard tour={standardTour} lang={lang} featured />}
         </div>
       </section>
 
