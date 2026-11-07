@@ -32,7 +32,16 @@
     "shipping_international": "Ships to France & Europe; please allow 1 month for pre orders",
     "shipping_heading": "Shipping Information",
     "lebanon": "Lebanon",
-    "international": "International"
+    "international": "International",
+    "storage_faq": "Honey Storage FAQ",
+    "storage_faq_room_q": "How should I store my honey?",
+    "storage_faq_room_a": "Keep your honey in a sealed jar at room temperature, away from direct sunlight. A kitchen cupboard or pantry is ideal.",
+    "storage_faq_expire_q": "Does honey expire?",
+    "storage_faq_expire_a": "Pure honey doesn't spoil when stored properly. It can last for years, though its flavor and color may change slightly over time.",
+    "storage_faq_crystallize_q": "Why has my honey turned solid or grainy?",
+    "storage_faq_crystallize_a": "That's crystallization, a natural process for raw honey and a sign of its purity, not spoilage. Place the jar in warm water and stir gently to return it to a liquid state.",
+    "storage_faq_fridge_q": "Should I keep honey in the fridge?",
+    "storage_faq_fridge_a": "No, refrigeration speeds up crystallization. Store your honey at room temperature instead."
   },
   "tours": {
     "heading": "Visit Our Bees",

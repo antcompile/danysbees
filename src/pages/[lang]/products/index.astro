@@ -17,6 +17,7 @@ const { lang } = Astro.params as { lang: Lang };
 const t = useTranslation(lang);
 const currentPath = `/${lang}/products/`;
 const products = await getCollection('products');
+const storageFaqs = ['room', 'expire', 'crystallize', 'fridge'];
 ---
 
 <BaseLayout lang={lang} title={`${t('products.collection_heading')} | Dany's Bees`}>
@@ -79,6 +80,26 @@ const products = await getCollection('products');
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Honey Storage FAQ -->
+    <section class="max-w-3xl mx-auto px-6 md:px-8 mt-24">
+      <h2 class="text-4xl font-serif text-center mb-12">{t('products.storage_faq')}</h2>
+      <div class="space-y-4">
+        {storageFaqs.map((faq) => (
+          <details class="group bg-surface-container-low rounded-xl">
+            <summary class="flex justify-between items-center p-6 cursor-pointer font-bold text-dark">
+              {t(`products.storage_faq_${faq}_q`)}
+              <svg class="w-5 h-5 text-muted transition-transform group-open:rotate-180 faq-chevron flex-shrink-0 ms-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="px-6 pb-6 text-on-surface-variant leading-relaxed">
+              {t(`products.storage_faq_${faq}_a`)}
+            </div>
+          </details>
+        ))}
       </div>
     </section>
 

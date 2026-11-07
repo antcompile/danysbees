@@ -32,7 +32,16 @@
     "shipping_international": "Expédition vers la France et l'Europe ; prévoir 1 mois pour les pré-commandes",
     "shipping_heading": "Informations de Livraison",
     "lebanon": "Liban",
-    "international": "International"
+    "international": "International",
+    "storage_faq": "FAQ sur la Conservation du Miel",
+    "storage_faq_room_q": "Comment dois-je conserver mon miel ?",
+    "storage_faq_room_a": "Conservez votre miel dans un pot fermé, à température ambiante, à l'abri de la lumière directe du soleil. Un placard ou un garde-manger convient parfaitement.",
+    "storage_faq_expire_q": "Le miel se périme-t-il ?",
+    "storage_faq_expire_a": "Le miel pur ne se périme pas s'il est bien conservé. Il peut se garder pendant des années, même si sa saveur et sa couleur peuvent légèrement changer avec le temps.",
+    "storage_faq_crystallize_q": "Pourquoi mon miel est-il devenu solide ou granuleux ?",
+    "storage_faq_crystallize_a": "C'est la cristallisation, un processus naturel pour le miel brut et un signe de sa pureté, pas un signe d'altération. Placez le pot dans de l'eau tiède et remuez doucement pour qu'il redevienne liquide.",
+    "storage_faq_fridge_q": "Dois-je conserver le miel au réfrigérateur ?",
+    "storage_faq_fridge_a": "Non, le réfrigérateur accélère la cristallisation. Conservez plutôt votre miel à température ambiante."
   },
   "tours": {
     "heading": "Visitez Nos Abeilles",
