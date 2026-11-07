@@ -1,6 +1,6 @@
 # Test guidelines for danysbees
 
-These add to the factory's test guidelines.
+These add to the factory test guidelines.
 
 - The site has no test script: run `npm run build` and check it completes for all pages.
 - Preview locally with `npm run preview` after the build.

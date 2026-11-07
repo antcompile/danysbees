@@ -1,6 +1,6 @@
 # Review guidelines for danysbees
 
-These add to the factory's review guidelines.
+These add to the factory review guidelines.
 
 | Rule | Blocks on |
 |---|---|
